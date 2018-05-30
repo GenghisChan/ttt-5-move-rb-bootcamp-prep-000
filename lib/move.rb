@@ -8,8 +8,8 @@ def display_board(board)
 end
 
 def input_to_index(move)
-  return move - 1  #changing from string to a index
-  #Subtract one to match with index value from input. 5 === index[4]
+  move = move.to_i - 1 
+  return move
 end
 
 def move(board, move, value="X")
