@@ -1,4 +1,4 @@
-
+board = [" "," "," "," "," "," "," "," "," "]
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
@@ -12,7 +12,7 @@ def input_to_index(move)
   return move
 end
 
-def move(board, move, value="X")
+def move(board, index, value="X")
 board[move] = value
 
 return board
