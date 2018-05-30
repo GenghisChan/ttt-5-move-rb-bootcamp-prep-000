@@ -7,5 +7,5 @@ puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to go?"
 
 move = gets.strip
-move = move - 1
+move = move.to_i
 input_to_index(move)
