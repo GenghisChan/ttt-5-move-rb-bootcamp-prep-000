@@ -9,7 +9,7 @@ end
 
 def input_to_index(move)
   move = move.to_i - 1 
-  return [move]
+  return move
 end
 
 def move(board, move, value="X")
